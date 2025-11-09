@@ -1,0 +1,27 @@
+# Archivos del sistema
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Archivos temporales / logs
+*.log
+*.tmp
+*.swp
+
+# Carpetas de dependencias o build (si llegas a usar Node o algún bundler)
+node_modules/
+dist/
+build/
+
+# Configuración de editores
+.vscode/
+.idea/
+
+# Otros archivos temporales de VS Code
+*.code-workspace
+
+# Backup de editores
+*~ 
+*.bak
+
+# Carpetas de caché
+.cache/
